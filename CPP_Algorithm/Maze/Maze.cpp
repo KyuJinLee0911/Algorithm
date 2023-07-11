@@ -27,6 +27,7 @@ int main()
         // 입력
 
         // 로직
+        player.Update(deltaTick);
 
         // 렌더링
 
