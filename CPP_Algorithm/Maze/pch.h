@@ -4,6 +4,8 @@
 #include <Windows.h>
 #include <iostream>
 #include <vector>
+#include <queue>
+#include <map>
 using namespace std;
 
 using uint64 = unsigned __int64;
@@ -36,6 +38,13 @@ struct Pos
 		return *this;
 	}
 
+	bool operator<(const Pos& other) const
+	{
+		if (y != other.y)
+			return y < other.y;
+		return x < other.x;
+	}
+
 	int32 y = 0;
 	int32 x = 0;
 };
@@ -47,5 +56,5 @@ enum Dir
 	DIR_DOWN = 2,
 	DIR_RIGHT = 3,
 
-	DIR_COUNT = 4
+	DIR_COUNT = 8
 };
