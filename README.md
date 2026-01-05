@@ -2,6 +2,7 @@
 백준과 SWEA에서 푼 문제들의 정리입니다.
 사이트 별로 정리해 두었습니다
 
-boj - 백준
+boj - 백준 ([풀이 목록](https://github.com/KyuJinLee0911/Algorithm/tree/master/src/boj))
 
-swea - Software Expert Academy
+swea - Software Expert Academy ([풀이 목록](https://github.com/KyuJinLee0911/Algorithm/tree/master/src/swea))
+
